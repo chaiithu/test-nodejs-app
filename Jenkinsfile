@@ -22,6 +22,11 @@ pipeline {
          }
 
      }
+     stage('delivery') {
+       steps {
+         echo "delivered"
+       }
+     }
   
    	}
 
