@@ -19,12 +19,7 @@ pipeline {
          stage("Deploy application") { 
          steps { 
            sh 'echo "deploying application..."'
-         }
-
-     }
-     stage('delivery') {
-       steps {
-         echo "delivered"
+  
        }
      }
   
